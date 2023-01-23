@@ -28,7 +28,7 @@ const Team2 = () => {
       cellClassName: "name-column--cell",
     },
     {
-      field: "ages",
+      field: "age",
       headerName: "Age",
       type: "number",
       headerAlign: "left",
@@ -106,7 +106,7 @@ const Team2 = () => {
           onChange={event => setSearchField(event.target.value)}
         >
           <MenuItem value="name">Name</MenuItem>
-          <MenuItem value="ages">Age</MenuItem>
+          {/* <MenuItem value="age">Age</MenuItem> */}
           <MenuItem value="phone">Phone Number</MenuItem>
           <MenuItem value="email">Email</MenuItem>
           <MenuItem value="access">Access Level</MenuItem>
