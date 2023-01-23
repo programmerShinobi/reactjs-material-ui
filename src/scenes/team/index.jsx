@@ -84,7 +84,7 @@ const Team = () => {
     <Box m="20px" >
       {/* HEADER */}
       <Header title="TEAM" subtitle="Managing the Team Members" />
-      {/* SEARCH BAR */}
+      {/* SEARCH DATA */}
       <Box
         display="flex"
         backgroundColor={colors.primary[400]}
